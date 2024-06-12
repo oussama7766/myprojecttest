@@ -1,0 +1,87 @@
+ body {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     background-image: linear-gradient(to right, blue, rgb(13, 122, 230));
+     width: 100%;
+     height: 100vh;
+ }
+
+ .nav {
+     background-color: rgb(218, 0, 0);
+     width: 89%;
+     height: 0px;
+     margin: 33px;
+
+ }
+
+ ul {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+ }
+
+ ul li:hover {
+     transition-duration: 0.5s;
+     transition-delay: 0, 2s;
+     margin: 15px;
+     padding: 10px;
+     color: aliceblue;
+     /* color: #0093d7;
+    background-color: rgb(0, 0, 0); */
+     border-radius: 10PX;
+     font-size: large;
+     letter-spacing: 5px;
+
+ }
+
+
+ form {
+
+     /* background-color: #008000; */
+     /* display: inline-block; */
+     width: 40%;
+     height: 50%;
+     text-align: center;
+     /* justify-content: center; */
+     align-items: center;
+     /* margin: 50px auto; */
+     border-radius: 20px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ label {
+     padding: 10px;
+     color: rgb(0, 0, 0);
+     display: inline-block;
+     /* height: 25px; */
+     text-indent: 9px;
+     text-transform: capitalize;
+     transition-duration: 0.5s;
+     transition-delay: 0.2s;
+
+ }
+
+ label:hover {
+     margin-top: 15px;
+     margin-bottom: 10px;
+     color: #f6f6f6;
+     /* background-color: rgb(0, 0, 0); */
+     border-radius: 10PX;
+     font-size: large;
+     letter-spacing: 10px;
+ }
+
+ input {
+     display: flex;
+     padding: 6px;
+     margin: 10px;
+     width: 90%;
+     justify-content: center;
+ }
